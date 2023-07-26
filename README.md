@@ -14,6 +14,7 @@ More details at [paper]()
 ```
 conda install requirements.txt or pip install requirements.txt
 ```
+Download the MUSDB18HQ dataset [here](https://zenodo.org/record/3338373)
 
 ### CAEs
 
