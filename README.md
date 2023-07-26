@@ -8,6 +8,8 @@ While recording instrument sounds in live concerts, dedicated microphones are pl
 1. Convolutional Autoencoders (CAEs): Treating interference as noise
 2. t-UNet (truncated UNet): Assuming problem as a special source separation problem
 
+More details at [paper]()
+
 ### Getting Started
 ```
 conda install requirements.txt or pip install requirements.txt
