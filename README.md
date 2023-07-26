@@ -5,7 +5,7 @@ This repository contains the Python implementation of our paper "Neural Networks
 ### Introduction
 While recording instrument sounds in live concerts, dedicated microphones are placed to capture their corresponding source. Practically, these microphones pick up the other sources as well, as they are not acoustically shielded, leading to interference. These are also called leakage, bleeding, or crosstalk. In this paper, we have proposed two neural networks for interference reduction.
 
-1. Convolutional Autoencoders (CAEs): Treating interference as noise
-2. t-UNet (truncated UNet): Assuming problem as a special source seperation problem
+1. Convolutional Autoencoders (CAEs): Treating interference as a noise
+2. t-UNet (truncated UNet): Assuming problem as a special source separation problem
 
 ### CAEs
