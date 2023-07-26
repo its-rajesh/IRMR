@@ -18,7 +18,15 @@ Download the MUSDB18HQ dataset [here](https://zenodo.org/record/3338373). Make s
 ```
 musdb18hq
 |---> train
+|      | --->
+|      | --->
+|      | .
+|      | --->
 |---> test
+|      | --->
+|      | --->
+|      | .
+|      | --->
 ```
 
 ### CAEs
