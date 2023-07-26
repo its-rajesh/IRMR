@@ -14,7 +14,12 @@ More details at [paper]()
 ```
 conda install requirements.txt or pip install requirements.txt
 ```
-Download the MUSDB18HQ dataset [here](https://zenodo.org/record/3338373)
+Download the MUSDB18HQ dataset [here](https://zenodo.org/record/3338373). Make sure the folder tree looks like this:
+```
+musdb18hq
+|---> train
+|---> test
+```
 
 ### CAEs
 
