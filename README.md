@@ -11,8 +11,14 @@ While recording instrument sounds in live concerts, dedicated microphones are pl
 More details at [paper]()
 
 ### Getting Started
+
+Install the dependencies in the virtual environment:
 ```
-conda install requirements.txt or pip install -r requirements.txt
+pip install -r requirements.txt
+```
+or directly create a conda environment using:
+```
+conda create --name irmr --file requirements.txt
 ```
 Download the MUSDB18HQ dataset [here](https://zenodo.org/record/3338373). Make sure the folder tree looks like this:
 ```
