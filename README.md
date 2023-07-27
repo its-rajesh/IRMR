@@ -23,16 +23,20 @@ conda create --name irmr --file requirements.txt
 [Step 2] Download the MUSDB18HQ dataset [here](https://zenodo.org/record/3338373). Make sure the folder tree looks like this:
 ```
 musdb18hq
-|---> train
-|      | --->
-|      | --->
-|      | .
-|      | --->
-|---> test
-|      | --->
-|      | --->
-|      | .
-|      | --->
+├── train
+│   └── A Classic Education-NightOwl
+│       └── vocals.wav
+│       └── bass.wav
+│       └── drums.wav
+│       └── other.wav
+│       └── mixture.wav
+├── test
+│   └── Al James-Schoolboy Facination
+│       └── vocals.wav
+│       └── bass.wav
+│       └── drums.wav
+│       └── other.wav
+│       └── mixture.wav
 ```
 
 ### CAEs
