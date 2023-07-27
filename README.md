@@ -46,7 +46,7 @@ musdb18hq
 2. Creating artificial interference among the stems in each track by linear mixtures.
 
 
-Navigate to the CAE folder,
+Navigate to the CAE or tUNet folder,
 ```
 python ArtificialMix.py /path/to/musdb18hq/dataset/
 ```
