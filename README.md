@@ -30,6 +30,7 @@ musdb18hq
 │       └── drums.wav
 │       └── other.wav
 │       └── mixture.wav
+│   └── subfolder...
 ├── test
 │   └── Al James-Schoolboy Facination
 │       └── vocals.wav
@@ -37,6 +38,8 @@ musdb18hq
 │       └── drums.wav
 │       └── other.wav
 │       └── mixture.wav
+│   └── subfolder...
+
 ```
 
 ### CAEs
