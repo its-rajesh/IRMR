@@ -12,7 +12,7 @@ More details at [paper]()
 
 ### Getting Started
 
-Install the dependencies in the virtual environment:
+[Step 1] Install the dependencies in the virtual environment:
 ```
 pip install -r requirements.txt
 ```
@@ -20,7 +20,7 @@ or directly create a conda environment using:
 ```
 conda create --name irmr --file requirements.txt
 ```
-Download the MUSDB18HQ dataset [here](https://zenodo.org/record/3338373). Make sure the folder tree looks like this:
+[Step 2] Download the MUSDB18HQ dataset [here](https://zenodo.org/record/3338373). Make sure the folder tree looks like this:
 ```
 musdb18hq
 |---> train
