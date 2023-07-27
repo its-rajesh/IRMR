@@ -12,7 +12,7 @@ More details at [paper]()
 
 ### Getting Started
 
-[Step 1] Install the dependencies in the virtual environment:
+Install the dependencies in the virtual environment:
 ```
 pip install -r requirements.txt
 ```
@@ -20,7 +20,9 @@ or directly create a conda environment using:
 ```
 conda create --name irmr --file requirements.txt
 ```
-[Step 2] Download the MUSDB18HQ dataset [here](https://zenodo.org/record/3338373). Make sure the folder tree looks like this:
+
+## Dataset Creation
+1. Download the MUSDB18HQ dataset [here](https://zenodo.org/record/3338373). Make sure the folder tree looks like this:
 ```
 musdb18hq
 ├── train
@@ -41,6 +43,8 @@ musdb18hq
 │   └── subfolder...
 
 ```
+2. Creating artificial interference among the stems in each track by linear mixtures
+3. Creating artificial realistic interference by introducing time delays and room impulse response
 
 ### CAEs
 
