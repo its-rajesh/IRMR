@@ -12,7 +12,7 @@ More details at [paper]()
 
 ### Getting Started
 
-Install the dependencies in the virtual environment:
+Clone the repo and install dependencies in the virtual environment:
 ```
 pip install -r requirements.txt
 ```
@@ -44,6 +44,11 @@ musdb18hq
 
 ```
 2. Creating artificial interference among the stems in each track by linear mixtures
+```
+python Artimix.py /path/to/musdb18hq/dataset/
+```
+
+
 3. Creating artificial realistic interference by introducing time delays and room impulse response
 
 ### CAEs
