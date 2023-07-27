@@ -44,9 +44,11 @@ musdb18hq
 
 ```
 2. Creating artificial interference among the stems in each track by linear mixtures
+Navigate to the CAE folder,
 ```
-python Artimix.py /path/to/musdb18hq/dataset/
+python ArtificialMix.py /path/to/musdb18hq/dataset/
 ```
+The output will be saved in ```numpy_files```. The code returns two numpy files ```Xtrain.npy``` and ```Ytrain.npy```
 
 
 3. Creating artificial realistic interference by introducing time delays and room impulse response
