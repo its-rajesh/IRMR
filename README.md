@@ -63,6 +63,7 @@ python realisticmix.py /path/to/numy_files/
 The code returns two numpy files ```Xtrain.npy``` and ```Ytrain.npy``` which will be saved in a folder ```realistic_mix```.
 
 ### CAEs
+Training:
 [More]()
 
 ### t-UNet
