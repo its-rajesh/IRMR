@@ -6,7 +6,7 @@ This repository contains the Python implementation of our paper "Neural Networks
 While recording instrument sounds in live concerts, dedicated microphones are placed to capture their corresponding source. Practically, these microphones pick up the other sources as well, as they are not acoustically shielded, leading to interference. These are also called leakage, bleeding, or crosstalk. In this paper, we have proposed two neural networks for interference reduction.
 
 1. Convolutional Autoencoders (CAEs): Treating interference as noise
-2. t-UNet (truncated UNet): Assuming the problem as a special source separation problem
+2. t-UNet (truncated UNet): Assuming the problem is a special source separation problem
 
 More details at [paper]()
 
@@ -50,17 +50,17 @@ Navigate to the CAE or tUNet folder,
 ```
 python ArtificialMix.py /path/to/musdb18hq/dataset/
 ```
-The code returns two numpy files ```Xtrain.npy``` and ```Ytrain.npy``` which will be saved in a folder ```numpy_files```.
+The code returns two numpy files, ```Xtrain.npy``` and ```Ytrain.npy``` which will be saved in a folder ```numpy_files```.
 
 
-3. Creating artificial realistic interference by introducing time delays and room impulse response
+3. Creating artificially realistic interference by introducing time delays and room impulse response
 
 
 Navigate to the CAE or tUNet folder,
 ```
 python realisticmix.py /path/to/numy_files/
 ```
-The code returns two numpy files ```Xtrain.npy``` and ```Ytrain.npy``` which will be saved in a folder ```realistic_mix```.
+The code returns two numpy files, ```Xtrain.npy``` and ```Ytrain.npy``` which will be saved in a folder ```realistic_mix```.
 
 ### CAEs
 Training:
