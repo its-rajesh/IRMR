@@ -49,7 +49,7 @@ musdb18hq
 
 Navigate to the CAE or tUNet folder,
 ```
-python ArtificialMix.py /path/to/musdb18hq/dataset/
+python ArtificialMix.py --dataset /path/to/musdb18hq/dataset/
 ```
 The code returns two numpy files, ```Xtrain.npy``` and ```Ytrain.npy``` which will be saved in a folder ```numpy_files```.
 
@@ -59,7 +59,7 @@ The code returns two numpy files, ```Xtrain.npy``` and ```Ytrain.npy``` which wi
 
 Navigate to the CAE or tUNet folder,
 ```
-python realisticmix.py /path/to/numy_files/
+python realisticmix.py --dataset /path/to/numy_files/
 ```
 The code returns two numpy files, ```Xtrain.npy``` and ```Ytrain.npy``` which will be saved in a folder ```realistic_mix```.
 
