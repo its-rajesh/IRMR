@@ -71,5 +71,5 @@ Training:
 Training:
 [More]()
 
-will be updated soon..
+will be updated soon
 
