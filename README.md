@@ -65,9 +65,17 @@ python realisticmix.py --dataset /path/to/numy_files/
 ```
 The code returns two numpy files, ```Xtrain.npy``` and ```Ytrain.npy``` which will be saved in a folder ```realistic_mix```.
 
+## Training
+
 ### CAEs
-Training:
-[More]()
+For training the CAE, you need to process the data using:
+
+Then,
+```
+python train.py --dataset /path/to/numy_processed_files/ --epoch 100 --batchsize 64
+```
+
+#### Testing
 
 ### t-UNet
 Training:
