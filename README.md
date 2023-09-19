@@ -1,6 +1,6 @@
 # Interference Reduction in Multi-track Recordings
 
-This repository contains the Python implementation of our paper titled "Neural Networks for Interference Reduction in Multi-track Recordings," which has been accepted for publication at the IEEE Workshop on Applications of Signal Processing to Audio and Acoustics 2023 (WASPAA 2023).
+This repository contains the Python implementation of our paper: Rajesh R and Padmanabhan Rajan, "Neural Networks for Interference Reduction in Multi-Track Recordings," 2023 IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA), New Paltz, NY, USA, 2023, pp. 1-5, doi: 10.1109/WASPAA58266.2023.10248133.
 
 ### Introduction
 
