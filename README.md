@@ -100,11 +100,11 @@ python train.py --dataset /path/to/numpy_files/ --epoch 600 --batchsize 64
 
 For testing, repeat the preprocessing of the dataset similar to that of training. Then,
 ```
-python test.py --dataset /path/to/numy_files/ --v /path/to/model
+python test.py --dataset /path/to/numy_files/ --model /path/to/model
 ```
 
 To compute SDR,
 ```
-python getSDR.py --model path/to/numy_files/ --v /path/to/model
+python getSDR.py --dataset path/to/numy_files/ --model /path/to/model
 ```
 
