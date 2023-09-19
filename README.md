@@ -69,7 +69,9 @@ The code returns two numpy files, ```Xtrain.npy``` and ```Ytrain.npy``` which wi
 
 ### CAEs
 For training the CAE, you need to process the data using:
-
+```
+python DataGen.py --dataset /path/to/numy_files/ --fs 22050 --hoplength 2048 --stem vocal
+```
 Then,
 ```
 python train.py --dataset /path/to/numy_processed_files/ --epoch 100 --batchsize 64
