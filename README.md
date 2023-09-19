@@ -10,7 +10,7 @@ In our paper, we propose two neural network-based solutions for interference red
 1. **Convolutional Autoencoders (CAEs)**: These models treat interference as noise and aim to eliminate it from the recordings.
 2. **t-UNet (truncated UNet)**: We approach the problem as a specialized source separation task, leveraging the unique characteristics of the audio data.
 
-For more in-depth information, please refer to our [paper]()
+For more in-depth information, please refer to our [paper](https://ieeexplore.ieee.org/document/10248133)
 
 
 ### Getting Started
