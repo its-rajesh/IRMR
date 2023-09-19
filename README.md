@@ -25,7 +25,7 @@ conda create --name irmr --file requirements.txt
 ```
 
 ## Dataset Creation
-1. Download the MUSDB18HQ dataset [here](https://zenodo.org/record/3338373). Make sure the folder tree looks like this:
+1. Download the MUSDB18HQ dataset [here](https://zenodo.org/record/3338373). Make sure the folder tree looks:
 ```
 musdb18hq
 ├── train
@@ -68,7 +68,7 @@ The code returns two numpy files, ```Xtrain.npy``` and ```Ytrain.npy``` which wi
 ## Training
 
 ### CAEs
-For training the CAE, you need to process the data using:
+For training the CAE, Navigate to the CAE folder. To train the model, you need to process the saved numpy files using:
 ```
 python DataGen.py --dataset /path/to/numy_files/ --fs 22050 --hoplength 2048 --stem vocal
 ```
@@ -78,7 +78,9 @@ python train.py --dataset /path/to/numy_processed_files/ --epoch 100 --batchsize
 ```
 
 #### Testing
-
+```
+python train.py --dataset /path/to/numy_processed_files/ --epoch 100 --batchsize 64
+```
 ### t-UNet
 Training:
 [More]()
