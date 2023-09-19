@@ -76,11 +76,14 @@ Then,
 ```
 python train.py --dataset /path/to/numy_processed_files/ --epoch 100 --batchsize 64
 ```
+Repeat the training for all the stems and save the models.
 
 #### Testing
+For testing, repeat the preprocessing of the dataset similar to that of training. Then,
 ```
-python train.py --dataset /path/to/numy_processed_files/ --epoch 100 --batchsize 64
+python test.py --dataset /path/to/numy_processed_files/ --v /path/to/vocal/model --b /path/to/bass/model --d /path/to/drums/model --o /path/to/other/model
 ```
+
 ### t-UNet
 Training:
 [More]()
