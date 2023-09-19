@@ -83,6 +83,7 @@ For testing, repeat the preprocessing of the dataset similar to that of training
 ```
 python test.py --dataset /path/to/numy_processed_files/ --v /path/to/vocal/model --b /path/to/bass/model --d /path/to/drums/model --o /path/to/other/model
 ```
+
 To compute SDR,
 ```
 python getSDR.py --dataset /path/to/numy_processed_files/ --v /path/to/vocal/model --b /path/to/bass/model --d /path/to/drums/model --o /path/to/other/model
