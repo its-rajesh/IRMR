@@ -90,8 +90,21 @@ python getSDR.py --dataset /path/to/numy_processed_files/ --v /path/to/vocal/mod
 ```
 
 ### t-UNet
-Training:
-[More]()
 
-will be updated soon..
+For training the t-UNet, Navigate to the tUNet folder,
+```
+python train.py --dataset /path/to/numpy_files/ --epoch 100 --batchsize 64
+```
+
+#### Testing
+
+For testing, repeat the preprocessing of the dataset similar to that of training. Then,
+```
+python test.py --dataset /path/to/numy_files/ --v /path/to/model
+```
+
+To compute SDR,
+```
+python getSDR.py --dataset path/to/numy_files/ --v /path/to/model
+```
 
